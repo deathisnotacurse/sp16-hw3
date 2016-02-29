@@ -1,0 +1,15 @@
+<h1>StaticPages#home</h1>
+<p> Cats </p>
+<% @cats.each do |c| %>
+    <%= c.name %>
+<% end %>
+<br>
+<p> Users </p>
+<% @users.each do |u| %>
+    <%= u.username %>
+<% end %>
+<br>
+<p> Todos </p>
+<% @todos.each do |t| %>
+    <%= t.tasks %>
+<% end %>
